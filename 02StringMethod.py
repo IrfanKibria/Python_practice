@@ -1,4 +1,6 @@
-# strings are immutable but we can make a copy with some changes
+''' strings are immutable but we can make a copy with some changes.
+Here are Some Methods are for Uppercase, Lower case, Capitalize, split,
+Count, rstrip, replace, endswith ect'''
 
 a = input("Enter a string: ")
 
@@ -36,3 +38,5 @@ print(name1.replace("Kibria", "talha"))
 print(name.endswith("####"))
 
 print(name.endswith("an", 0, 5))
+
+print(name1)
