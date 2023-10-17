@@ -45,11 +45,57 @@ else:
 Method 02
 '''
 
+import time
+t = time.strftime("%H:%M:%S")
+print(t)
 
-a =[2, 56, 156, 86, 2, 45]
+h = int(time.strftime("%H"))
 
-b = min(a)
+m = int(time.strftime("%M"))
 
-print(b)
+s = int(time.strftime("%S"))
 
 
+if h>=4 and h<12:
+    print("Good Morning")
+
+elif h>= 12 and h<15:
+    if h == 12 and m ==00:
+        print("Good Noon")
+    else:
+        print("Good AfterNoon")
+
+elif h>=16 and h<20:
+    print("Good Evening")
+
+else:
+    print("GOod NIght")
+
+
+'''
+take time inpur from user and wish user
+'''
+from datetime import time
+
+h = int(input())
+m = int(input())
+s = int(input())
+
+timee = time(h, m, s)
+
+print(timee)
+
+if h>=4 and h<12:
+    print("Good Morning")
+
+elif h>= 12 and h<15:
+    if h == 12 and m ==00:
+        print("Good Noon")
+    else:
+        print("Good AfterNoon")
+
+elif h>=16 and h<20:
+    print("Good Evening")
+
+else:
+    print("GOod NIght")
