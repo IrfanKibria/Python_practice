@@ -22,6 +22,3 @@ print(f"My first name is {p[0:5]}")
 
 print(f"sliceing the name {p[6:15]}")
 print(f"sliceing negativly {p[-12:-6]}")
-
-for i in p:
-    print(i)
