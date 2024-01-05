@@ -6,6 +6,13 @@ else:
 
 
 
+B = int(input("Enter a number"))
+while(B>0):
+    print(B)
+    B = B-1
+
+
+
 while True:
     
     input_year = int(input("Enter a year: "))
