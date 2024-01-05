@@ -2,6 +2,10 @@
 #     print(i)
 
 
+# for i in range(0,100,5):
+#     print(i)
+
+
 # name = ["IRfan", "Kibria", "Talha"]
 # for i in name:
 #     print(i)
