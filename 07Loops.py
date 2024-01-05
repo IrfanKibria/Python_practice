@@ -23,3 +23,12 @@ print(f"No of vowels {count}")
         
 
 
+text = input('Enter text: ')
+
+for char in text:
+    if char in 'aeiouAEIOU':
+        print(char,'is vowel')
+    else:
+         print(char,'is Consonant')
+
+
