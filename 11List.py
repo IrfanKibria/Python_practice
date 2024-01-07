@@ -61,6 +61,9 @@ print(m)
 l.append(100)# insert a data in a list. 100 will insert at the last
 print(l)
 
+l.pop(10)#remove index 10 from the list
+print(l)
+
 l.insert(0, 200)#insert 200 in the list at 0 index
 print(l)
 
