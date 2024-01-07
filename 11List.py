@@ -44,3 +44,30 @@ print(l)
 l.sort(reverse=(True))#list will show in decending order
 print(l)
 
+print(l.index(9))#print the index number of 9
+
+print(l.count(1))#print the count how much time the listt has 1
+
+# m = l# this is not the correct way to copy list. m is a reference of l. if l change then m will be change.
+# m[0] = 0
+# print(m)
+
+m = l.copy()# correct way to copy a list. here we copy l list to m list
+m[0] = 0
+print(l)
+print(m)
+
+
+l.append(100)# insert a data in a list. 100 will insert at the last
+print(l)
+
+l.insert(0, 200)#insert 200 in the list at 0 index
+print(l)
+
+
+p = [1000, 2000, 3000]#here p list will connect with l.
+l.extend(p)
+print(l)
+
+k = l+p#create a list by sub 2 list
+print(k)
