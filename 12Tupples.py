@@ -32,3 +32,21 @@ temp_lan[3] = "French"#modified the index 3 data to french
 print(temp_lan)
 lan = tuple(temp_lan)#make the list into tupple and assaign to existing tupple
 print(lan)
+
+'''Concatenate two tuple'''
+
+contries1 = ('india', 'Bangladesh', 'Srilanka')
+contries2 = ('Nepal', 'Bhutan')
+southasia = contries1 + contries2
+print(southasia)
+
+
+ls = (4,1,3,4,5,6,7,6,8)
+print(ls.count(4))
+print(ls.index(4))#.index will give value error if content is not available in tupple
+print(ls.index(4, 0, 5))#here we can find out what is 4's index in 0 to 5 index. it will show first occarance of 4
+
+
+
+
+
