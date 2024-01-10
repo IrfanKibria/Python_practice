@@ -28,7 +28,8 @@ for i in range(0, len(questions)):
     print(f"a. {question[1]}            b. {question[2]}")
     print(f"c. {question[3]}            d. {question[4]}")
     reply = int(input("Enter Your Answer: "))
-    if(reply == question[-1]):#here in my questions correct answer is in index 4, we can simple write 4 or -1.
+    #here in my questions correct answer is in index 5, we can simple write 5 or -1. the len of this list is 6.
+    if(reply == question[-1]):
         print(f"correct answer, you have won {level[i]}")
         if(i==4):
             money = 10000
@@ -47,3 +48,5 @@ for i in range(0, len(questions)):
         break
 
 print(f"your take home money is: {money}")
+
+
