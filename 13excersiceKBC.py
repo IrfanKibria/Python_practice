@@ -38,7 +38,10 @@ for i in range(0, len(questions)):
             money = 7500000
         elif(i==16):
             money = 70000000
-
+    elif(reply == 0):
+        money = level[i-1]
+        print("You wana quite.")
+        break
     else:
         print("Wrong Answer")
         break
