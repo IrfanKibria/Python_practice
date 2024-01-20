@@ -18,7 +18,6 @@ CalculateAvg(x, y)
 def FindMax(a, b):
     if(a>b):
         print("first number is greater")
-
     else:
         print("second number is greater")
 
