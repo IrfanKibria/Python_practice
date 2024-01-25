@@ -7,3 +7,11 @@
 6. you can get the value of an item by using s1['key'] and it will return the value. s1.get("key") will also return 
 the value but it wont throw an error in case there is no value/key available in the dictionary
 '''
+
+emp_id_with_name= {
+    001: 'irfan',
+    002: 'kibria',
+    003: 'rafsan',
+    0025: 'anik',
+    0045: 'atiq'
+}
