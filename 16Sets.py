@@ -106,7 +106,7 @@ print(u)
 u.clear()# if we want clear all the elements of a set then we use clear
 print(u)
 
-del u#by this we delete u set completly
+del u  #by this we delete u set completly
 
 '''Checking a number if it is present in a set'''
 user_input = int(input("Enter a number: "))
