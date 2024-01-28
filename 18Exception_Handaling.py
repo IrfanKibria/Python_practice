@@ -13,5 +13,33 @@ run print functions below'''
 a = input("Enter a number for table: ")
 print(f"The multiplication of {a} is: ")
 
-for i in range(1, 11):
-    print(f"{int(a)} X {i} = {int(a) * i}")
+try:
+    for i in range(1, 11):
+        print(f"{int(a)} X {i} = {int(a) * i}")
+except Exception as e:
+    print(e)
+
+
+
+'''WE  can also give a personal message for the error'''
+a = input("Enter a number for table: ")
+
+print(f"The multiplication of {a} is: ")
+
+try:
+    for i in range(1, 11):
+        print(f"{int(a)} X {i} = {int(a) * i}")
+except:
+    print("Please Input the valid Number")
+
+
+print("here are some code")
+
+
+'''We can handle value error'''
+
+try:
+    a = int(input("enter a number: "))
+
+except ValueError:
+    print("Enter a integer number")
