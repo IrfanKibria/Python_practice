@@ -43,3 +43,17 @@ try:
 
 except ValueError:
     print("Enter a integer number")
+
+
+
+'''we can use multiple exceptions'''
+
+try:
+    l = [2,4,6,7,8]
+    i = int(input("Enter a index number of that list: "))
+    print(l[i])
+
+except ValueError:
+    print('Invalid Input, Enter a integer Number')
+except IndexError:
+    print("Input valid Index Number")
