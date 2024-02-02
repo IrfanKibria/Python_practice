@@ -7,3 +7,44 @@ blocks. We can also make our custom error classes using any base case error with
 that error whenever it violates those rules. '''
 
 
+'''Here we are writing a poblem where the porgram accept just "quite" string and print it or the values between 
+18 to 50. except those all input show value error'''
+
+inpt = input("Enter an integer(between 5 and 9) : ")
+
+try:
+    if inpt == "quite":
+        print("no error")
+
+    elif 5 <= int(inpt) <= 9:
+        print(f"{inpt}")
+
+    elif int(inpt) < 5 or int(inpt) > 9:
+        raise ValueError("Enter correct value to enter")
+except ValueError as v:
+    print(v)
+
+'''Now writing a function like above'''
+
+
+def run():
+    a = input("Enter an integer(between 5 and 9) : ")
+
+    try:
+        if a == "quite":
+            print("no error")
+
+        elif 5 <= int(a) <= 9:
+            print(f"{a}")
+
+        elif int(a) < 5 or int(a) > 9:
+            raise ValueError("Enter correct value to enter")
+    except ValueError as v:
+        print(v)
+
+
+user_input = run()
+
+
+
+
