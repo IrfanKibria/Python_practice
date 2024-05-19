@@ -10,11 +10,14 @@ run print functions below'''
 
 
 
-a = input("Enter a number for table: ")
+a = input("Enter a number for tables: ")
 print(f"The multiplication of {a} is: ")
 
 try:
     for i in range(1, 11):
+        if(i == 5) or (i==7):
+            print("I want to gap in these feild for some reason")
+            continue
         print(f"{int(a)} X {i} = {int(a) * i}")
 except Exception as e:
     print(e)
@@ -53,7 +56,9 @@ try:
     i = int(input("Enter a index number of that list: "))
     print(l[i])
 
-except ValueError:
+except ValueError as v:
+    print(v)
     print('Invalid Input, Enter a integer Number')
-except IndexError:
+except IndexError as I:
+    print(I)
     print("Input valid Index Number")

@@ -6,6 +6,7 @@
 
 
 a = [1,2,3,4,5,6,7,8,9,10,11]
+print(type(a))
 print(a[0])
 print(a[1])
 print(a) #print full list
@@ -16,7 +17,7 @@ print(a[1:8:2])#jump index it will printing one index after data
 
 
 mlist = [i for i in range(10)]#this is called list comprehension. 
-print(mlist)
+print("mlist",mlist)
 
 
 mlist = [i*i for i in range(10)]
@@ -24,12 +25,12 @@ print(mlist)
 
 
 mlist = [i*i for i in range(10) if i%2==0]
-print(mlist)
+print("mlist 2",mlist)
 
 
 
-# b = list(map(int, input("Enter a List: ").split()))
-# print(b)
+b = list(map(int, input("Enter a List: ").split()))
+print(b)
 
 
 l =[45,56,1,5,9,12,15,18,11,1]
