@@ -59,3 +59,36 @@ with open("24Sample 2.txt", "r") as f:
     text = f.read()
     print(text)
 
+
+'''We use file name but best practice is work with full path'''
+
+with open("H:\\Irfan Documents\\Personal\\python\Python_practice\\25Sample3.txt", "w") as x:
+    x.write("This file create by using full path and with function\n")
+
+with open("H:\\Irfan Documents\\Personal\\python\\Python_practice\\25Sample3.txt", "a")as x:
+    x.write("line 1 \n line 2 \n line 3 \n line 4 \n line 5 \n line 6 \n")
+
+
+with open("H:\\Irfan Documents\\Personal\\python\\Python_practice\\25Sample3.txt", "r") as x:
+    print(x.read())
+
+'''by readline function we can read the first line of a file'''
+with open("H:\\Irfan Documents\\Personal\\python\\Python_practice\\25Sample3.txt", "r") as x:
+    print(x.readline())
+
+'''we can use loop in the file to extract line'''
+
+with open("H:\\Irfan Documents\\Personal\\python\\Python_practice\\25Sample3.txt", "r") as x:
+    for i in x:
+        print(i)
+
+print("HI")
+
+with open("H:\\Irfan Documents\\Personal\\python\\Python_practice\\25Sample3.txt", "r") as x:
+    for i in x:
+        if i==2:
+            break
+        print(i)
+
+
+
