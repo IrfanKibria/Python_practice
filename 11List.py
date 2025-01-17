@@ -33,7 +33,7 @@ b = list(map(int, input("Enter a List: ").split()))
 print(b)
 
 
-l =[45,56,1,5,9,12,15,18,11,1]
+l =[45,56,1,5,9,12,45,15,18,11,1]
 print(l)
 
 l.reverse()#Reverse the list
