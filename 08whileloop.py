@@ -1,11 +1,3 @@
-a = int(input())
-while(a<=38):
-    print(a)
-else:
-    print(f"{a} is Greater than 38")
-
-
-
 B = int(input("Enter a number"))
 while(B>0):
     print(B)
