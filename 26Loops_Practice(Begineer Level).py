@@ -16,13 +16,37 @@ Beginner level
 
 # 1. Print numbers from 1 to 100.
 
-a = int(input("Enter end range number"))
-while(a>0):
-    print(a)
-    a = a-1
+a = 1
+while a<=100:
+    print(a, end=" , ")
+    a = a+1
+print()
 
 
 
+# Take user input as end range and print the numbers
+end = int(input("Enter end range number: "))
+b = 1
+while(b<=end):
+    print(b)
+    b = b+1
+
+# Take range from user and print Numbers
+
+start = int(input("Enter start Range: "))
+end = int(input("Enter end range: "))
+
+while(start<=end):
+    print(start)
+    start += 1 
+
+
+
+start = int(input("Enter start Range: "))
+end = int(input("Enter end range: "))
+
+for i in range(start, end):
+    print(i)
 
 
 
