@@ -42,11 +42,128 @@ while(start<=end):
 
 
 
+# Take range from user and print Numbers(with for loop)
+
 start = int(input("Enter start Range: "))
 end = int(input("Enter end range: "))
 
-for i in range(start, end):
+for i in range(start, end+1):
     print(i)
+
+
+
+# 2. Print all even numbers between 1 and 50.
+ends= int(input("Enter end range: "))
+start =1
+lists= []
+while(start<= ends):
+    if start%2==0:
+        print(f"{start} is even number")
+        lists.append(start)
+    start += 1
+print()
+print(lists)
+
+
+# Take range from user and print even numbers and even numbers stored in list
+start = int(input("enter start range: "))
+end = int(input("enter end range: "))
+evens = []
+while(start<=end):
+    if start%2==0:
+        print(f"{start}", end = " ")
+        evens.append(start)
+    start += 1
+print()
+print(evens)
+
+
+# Take range from user and print even numbers and even numbers stored in list(For Loop)
+
+start = int(input("enter start range: "))
+end = int(input("enter end range: "))
+evens = []
+odd = []
+for i in range(start, end+1):
+    if i%2==0:
+        print(f"{i} is even number")
+        evens.append(i)
+    else:
+        print(f"{i} is odd")
+        odd.append(i)
+print()
+print(f"List of even number {evens}")
+print(f"List of odd number {odd}")
+
+
+
+
+
+# 4. Calculate the sum of numbers from 1 to N.
+
+end = int(input("Enter the targeted end: "))
+total = 0
+start = 1
+while(start<=end):
+    total += start
+    start +=1
+print(total)
+    
+
+# Calculate the sum of numbers from 1 to N.(For Loop)
+
+start = int(input("Enter the start range Number: "))
+end = int(input("Enter the end range number: "))
+total = 0
+for i in range(start, end +1):
+    total += start
+    start += 1
+print(total)
+
+
+
+
+# 5. Print the multiplication table of any number.
+
+a= int(input("Enter a number for Multiplication table: "))
+i=1
+while(i<=10):
+    print(f"{a} * {i} = {a*i}")
+    i+=1
+
+
+# Print the multiplication table of any number.(For Loop)
+
+a= int(input("ENter a Number for Multiplication table: "))
+
+for i in range(1,11):
+    print(f"{a} * {i} = {a*i}")
+
+
+
+
+# 6. Count vowels in a given string.
+
+a = input("Enter a string: ")
+vowels = 'aeiouAEIOU'
+count = 0
+i = 0
+while i < len(a):
+    if a[i] in vowels:
+        count += 1
+    i +=1
+print(f"total count of vowels: {count}")
+
+# Count vowels in a given string.(for loop)
+
+a = input("Enter a String: ")
+count = 0
+
+for i in a:
+    if i in 'aeiouAEIOU':
+        count += 1
+print(f"Number of vowels: {count}")
+
 
 
 
