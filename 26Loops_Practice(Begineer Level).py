@@ -230,6 +230,24 @@ while i<=f:
 
 
 
+# 10. Calculate factorial of a given number using a loop.
+
+f = int(input("Enter a Number: "))
+fac = 1
+for i in range(1, f+1):
+    fac = fac*i
+
+print(fac)
+
+
+f = int(input("Enter a Number: "))
+fac = 1
+i = 1
+
+while i<=f:
+    fac = fac*i
+    i += 1
+print(fac)
 
 
 
