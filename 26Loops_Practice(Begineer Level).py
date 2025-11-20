@@ -168,6 +168,73 @@ print(f"Number of vowels: {count}")
 
 
 
+# 7. Find the largest number in a list using loops.
+
+a = list(map(int, input("Enter a List").split()))
+max = a[0]
+print(a)
+for i in a:
+    if i>max:
+        max = i
+print(max)
+    
+
+a = list(map(int, input("Enter a List").split()))
+max = a[0]
+i = 0
+while i<len(a):
+    if a[i]> max:
+        max = a[i]
+    i += 1
+print(max)
+
+
+
+# 8. Reverse a string using a loop (no slicing).
+
+a = input("Input a String: ")
+rev_a = ""
+
+for i in a:
+    rev_a = i+ rev_a
+
+print(rev_a)
+
+
+a = input("Enter a String: ")
+
+rev_a = ""
+i = 0
+while i<len(a):
+    rev_a = a[i]+rev_a
+    i += 1
+print(rev_a)
+
+
+
+# 9. Print a pattern: * ** *** **** *****
+
+f = int(input("Enter the row no of printing star"))
+
+for i in range(1,f+1):
+    print("*"*i)
+
+
+f = int(input("Enter the row Number: "))
+i = 0
+
+while i<=f:
+    print("*"*i)
+    i +=1
+
+
+
+
+
+
+
+
+
 
 """Check Prime Number"""
 
