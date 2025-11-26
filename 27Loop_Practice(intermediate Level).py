@@ -98,3 +98,55 @@ print(rev)
 
 
 
+# 4. Count digits in a number.
+
+
+f = int(input("Enter a Number: "))
+
+s = str(f)
+count = 0
+for i in s:
+    count += 1
+
+print(count)
+
+
+
+f = int(input("Enter a Number: "))
+i = 0
+
+while f>0:
+    f = f // 10
+    i += 1
+
+print(i)
+
+
+
+
+# 5. Sum the digits of an integer.
+
+f = int(input("Enter a Number: "))
+
+i = 0
+total = 0
+
+while f>0:
+    digit = f%10
+    total = total+ digit
+    f = f//10
+print(total)
+
+
+f = int(input("Enter a Number: "))
+
+total = 0
+
+for i in str(f):
+    total += int(i)
+
+print(total)
+
+
+
+
