@@ -67,3 +67,20 @@ def list_avg():
     avg = sum(a)/div
     return avg
 print(list_avg())
+
+
+
+# Write a problem where take a range from user for list and take list elements from user
+# break when iinput is 'exit'
+
+def list_from_user():
+    n = int(input("Enter the range of list"))
+    list_a = []
+    for i in range(n):
+        f = input("Enter a Number to add in a list: ")
+        if f.lower() == 'exit':
+            break
+        list_a.append(f)
+    print(list_a)
+    return list_a
+list_from_user()

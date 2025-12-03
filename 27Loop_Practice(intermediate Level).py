@@ -150,3 +150,25 @@ print(total)
 
 
 
+# 6. Keep taking user input in a list until 'exit' is typed.
+list_a = []
+while True:
+    f = input("Enter a Number: ")
+    if f.lower() == 'exit':
+        break
+    list_a.append(f)
+print(list_a)
+
+
+# 6. Keep taking user input in a list until 'exit' is typed.
+list_a = []
+for i in iter(int, 1):
+    f = input("Enter a Number to add in a list: ")
+    if f.lower() == 'exit':
+        break
+    list_a.append(f)
+print(list_a)
+
+
+
+
