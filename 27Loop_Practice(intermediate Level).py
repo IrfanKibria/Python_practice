@@ -8,7 +8,20 @@
 7. Print all multiples of 3 between 1 and 300.
 8. Remove duplicates from a list using loops.
 9. Count how many times a value appears in a list.
-10. Find the second largest number in a list using loops."""
+10. Find the second largest number in a list using loops.
+
+
+1. Check if a number is an Armstrong number.
+2. Check if a number is a palindrome.
+3. Print this pattern: 1 12 123 1234 12345
+4. Print all prime numbers between 1 and 500.
+5. Find the GCD of two numbers using loops.
+6. Convert binary to decimal using a loop.
+7. Convert decimal to binary using a loop.
+8. Generate all subsets of a list using loops only.
+9. Check if a number is perfect.
+10. Generate the Collatz sequence until the number reaches 1.
+"""
 
 
 
