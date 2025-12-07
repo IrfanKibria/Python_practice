@@ -84,3 +84,14 @@ def list_from_user():
     print(list_a)
     return list_a
 list_from_user()
+
+
+
+# Write a recursion sum natural Numbers
+def natural_sum(n):
+    if n == 0:
+        return 0
+    return n + natural_sum(n -1)
+        
+    
+print(natural_sum(10))
