@@ -19,7 +19,7 @@ emp_id_with_name= {
 print(emp_id_with_name[25]) # Print the value of key 25. in this case it will give error if key name doesnt exist
 print(emp_id_with_name.get(25)) # Print the value of key 25. in this case it will not give error if key name doesnt exist
 print(emp_id_with_name.keys())#print all the keys of existing dictionary
-print(emp_id_with_name.values())#print all the keys of existing dictionary
+print(emp_id_with_name.values())#print all the values of existing dictionary
 
 for i in emp_id_with_name.keys():
     print(f"For {emp_id_with_name[i]} employee id is {i}") # get the emp_id for all employee
