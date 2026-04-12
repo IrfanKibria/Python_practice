@@ -34,3 +34,10 @@ if __name__ == '__main__':
         elif command == 'reverse':
             lst.reverse()
     print(lst)
+
+
+'''Create a program where we can insert, append, pop, remove element in a list untill user exit'''
+
+def operation():
+    try:
+        op = 
