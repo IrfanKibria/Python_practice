@@ -37,3 +37,9 @@ print(f"{super_hero_name}\n{super_hero_age}\n{super_hero_power}")
 print(1+2.5)#type convertoin. Because python autometicty output the result as float. Implicit. 
 
 print(float(2)+ 2)#type cationg because we change the type using float function. Explicit
+
+
+
+
+'''string operation'''
+
