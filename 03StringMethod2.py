@@ -24,13 +24,11 @@ a = name.find("Talhaaa")
 
 print(a)
 
-'''
-name = "Irfan Kibria Talha"
-
-a = name.index("Talhaaa")
-
-print(a)
-'''
+# '''
+# name = "Irfan Kibria Talha"
+# a = name.index("Talhaaa")
+# print(a)#it will givve error becaue the word will not be found
+# '''
 
 # isalnum use for to know the string is alpha numeric or not. isalnum lontains A to Z and a to z and 0 to 9
 # if any other character even space is in the string then it will show false
